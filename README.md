@@ -66,8 +66,8 @@ Example screenshots:
 
 ## 🛠 Tech Stack
 
-Backend: FastAPI, Python
-Frontend: Jinja2 Templates, HTML
-LLM: Hugging Face Flan-T5
-Vector Search: FAISS, Sentence-Transformers
-Tools: Git, VS Code
+Backend: FastAPI, Python 
+Frontend: Jinja2 Templates, HTML 
+LLM: Hugging Face Flan-T5 
+Vector Search: FAISS, Sentence-Transformers 
+Tools: Git, VS Code 
