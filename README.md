@@ -44,9 +44,9 @@ uvicorn app.main:app --reload
 - Open your browser at http://127.0.0.1:8000
 - Ask questions and see AI-Tutor in action.
 
+---
 
-
-📚 About the Project
+##  📚 About the Project
 
 I have created this project using a Physics textbook pdf from a sourced site that provides Free, high-quality textbooks.
 Since the textbook is too large to include in the repository, I have provided screenshots showing the working of the AI-Tutor with example queries.
@@ -57,9 +57,9 @@ Example screenshots:
 2. Get an AI-generated answer
 3. Full Q&A Example
 
+---
 
-
-🛠 Tech Stack
+## 🛠 Tech Stack
 
 Backend: FastAPI, Python
 Frontend: Jinja2 Templates, HTML
