@@ -26,6 +26,7 @@ AI-Tutor is a **local web-based Q&A application** that leverages **local Large L
 
 2. Create a virtual environment and activate it:
 
+   ```bash
    python -m venv venv
    # Windows
    venv\Scripts\activate
@@ -36,11 +37,13 @@ AI-Tutor is a **local web-based Q&A application** that leverages **local Large L
 
 3. Install dependencies:
 
+   ```bash
    pip install -r requirements.txt
 
 
 4. ⚡ Running the Application
 
+   ```bash
    uvicorn app.main:app --reload
 
    - Open your browser at http://127.0.0.1:8000
