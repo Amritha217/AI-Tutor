@@ -18,31 +18,33 @@ AI-Tutor is a **local web-based Q&A application** that leverages **local Large L
 
 1. Clone the repository:
 
-```bash
-git clone https://github.com/Amritha217/AI-Tutor.git
-cd AI-Tutor
+   ```bash
+   git clone https://github.com/Amritha217/AI-Tutor.git
+   cd AI-Tutor
+
 
 
 2. Create a virtual environment and activate it:
 
-python -m venv venv
-# Windows
-venv\Scripts\activate
-# Mac/Linux
-source venv/bin/activate
+   python -m venv venv
+   # Windows
+   venv\Scripts\activate
+   # Mac/Linux
+   source venv/bin/activate
+
 
 
 3. Install dependencies:
 
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
 
 4. ⚡ Running the Application
 
-uvicorn app.main:app --reload
+   uvicorn app.main:app --reload
 
-- Open your browser at http://127.0.0.1:8000
-- Ask questions and see AI-Tutor in action.
+   - Open your browser at http://127.0.0.1:8000
+   - Ask questions and see AI-Tutor in action.
 
 ---
 
