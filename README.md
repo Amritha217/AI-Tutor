@@ -1,73 +1,18 @@
-# AI-Tutor
+# React + Vite
 
-AI-Tutor is a **local web-based Q&A application** that leverages **local Large Language Models (LLMs)** and a **FAISS vector store** to answer user questions from educational material.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
----
+Currently, two official plugins are available:
 
-## 🚀 Features
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-- Web interface built with **FastAPI** and **Jinja2**.
-- Question answering powered by **Hugging Face Flan-T5** LLM.
-- Document retrieval using **FAISS** vector store with **Sentence-Transformers** embeddings.
-- Easily extendable architecture for adding more documents or models.
-- Fully local deployment — **no external API calls** needed.
+## React Compiler
 
----
+The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
 
-## 📦 Installation
+Note: This will impact Vite dev & build performances.
 
-1. Clone the repository:
+## Expanding the ESLint configuration
 
-   ```bash
-   git clone https://github.com/Amritha217/AI-Tutor.git
-   cd AI-Tutor
-
-
-
-2. Create a virtual environment and activate it:
-
-   ```bash
-   python -m venv venv
-   # Windows
-   venv\Scripts\activate
-   # Mac/Linux
-   source venv/bin/activate
-
-
-
-3. Install dependencies:
-
-   ```bash
-   pip install -r requirements.txt
-
-
-4. ⚡ Running the Application
-
-   ```bash
-   uvicorn app.main:app --reload
-
-   - Open your browser at http://127.0.0.1:8000
-   - Ask questions and see AI-Tutor in action.
-
----
-
-##  📚 About the Project
-
-I have created this project using a Physics textbook pdf from a sourced site that provides Free, high-quality textbooks.
-Since the textbook is too large to include in the repository, I have provided screenshots showing the working of the AI-Tutor with example queries.
-
-Example screenshots:
-
-1. Ask a question about Physics concepts
-2. Get an AI-generated answer
-3. Full Q&A Example
-
----
-
-## 🛠 Tech Stack
-
-- Backend: FastAPI, Python 
-- Frontend: Jinja2 Templates, HTML 
-- LLM: Hugging Face Flan-T5 
-- Vector Search: FAISS, Sentence-Transformers 
-- Tools: Git, VS Code 
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
