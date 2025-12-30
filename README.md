@@ -114,6 +114,6 @@ npm run dev
 
 - Open frontend in browser.
 
-E- nter a question from the textbook and submit.
+- Enter a question from the textbook and submit.
 
 - Get AI-generated answers instantly.
