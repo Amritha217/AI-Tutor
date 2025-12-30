@@ -76,45 +76,44 @@ npm run dev
 
 ## 📚 Project Details
 
-Textbook Used: Physics textbook PDF (too large to upload).
+- Textbook Used: Physics textbook PDF (too large to upload).
 
-Workaround: Screenshots included to demonstrate working queries and answers.
+- Workaround: Screenshots included to demonstrate working queries and answers.
 
-Backend: FastAPI + LangChain + Flan-T5 + FAISS
+- Backend: FastAPI + LangChain + Flan-T5 + FAISS
 
-Frontend: React + Vite with dynamic question input and answer display
+- Frontend: React + Vite with dynamic question input and answer display
 
 ## Example Screenshots
 
-Ask a question
+- Ask a question
 
-Get AI-generated answer
+- Get AI-generated answer
 
+## 🔧 Features Added Recently
 
-##🔧 Features Added Recently
+- React + Vite frontend consuming FastAPI REST API
 
-React + Vite frontend consuming FastAPI REST API
+- Responsive UI with loading states
 
-Responsive UI with loading states
+- Modular design for easy textbook/model updates
 
-Modular design for easy textbook/model updates
+## 📌 Notes
 
-##📌 Notes
+- AI-Tutor is fully local; no API keys or external servers needed.
 
-AI-Tutor is fully local; no API keys or external servers needed.
+- FAISS enables sub-second semantic search.
 
-FAISS enables sub-second semantic search.
+- Flan-T5 generates accurate answers with LLM retrieval pipeline.
 
-Flan-T5 generates accurate answers with LLM retrieval pipeline.
+## 👩‍💻 Usage
 
-##👩‍💻 Usage
+-Start backend server (uvicorn app.main:app --reload).
 
-Start backend server (uvicorn app.main:app --reload).
+- Start frontend server (npm run dev).
 
-Start frontend server (npm run dev).
+- Open frontend in browser.
 
-Open frontend in browser.
+E- nter a question from the textbook and submit.
 
-Enter a question from the textbook and submit.
-
-Get AI-generated answers instantly.
+- Get AI-generated answers instantly.
